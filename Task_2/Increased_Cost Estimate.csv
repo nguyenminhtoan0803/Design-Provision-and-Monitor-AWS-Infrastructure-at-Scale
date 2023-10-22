@@ -1,0 +1,27 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+133.12,18475.589999999997,221840.20,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon CloudWatch,0,21,252.00,USD,,Number of Metrics (includes detailed and custom metrics) (70)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon Elastic IP,0,0,0.00,USD,,"Number of EC2 instances (1), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,AWS Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month), DT Intra-Region: (0 tb_month)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon Route 53,0,1475.5,17706.00,USD,,"Hosted Zones (1), Basic Checks Within AWS (3000)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Network Address Translation (NAT) Gateway,0,2282.85,27394.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Network Load Balancer,0,947.18,11366.16,USD,,"Number of Network Load Balancers (1), Average number of new TCP connections (5000 per second), Average number of new UDP Flows (5000 per second), Average UDP Flow duration (60 seconds), Average TCP connection duration (60 seconds), Processed bytes per NLB for TCP (100 GB per hour), Processed bytes per NLB for UDP (10 GB per hour), Average number of new TLS connections (5000 per second), Average TLS connection duration (60 seconds), Processed bytes per NLB for TLS (100 GB per hour)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Application Load Balancer,0,2498.43,29981.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,S3 Standard,0,1150,13800.00,USD,,S3 Standard storage (50000 GB per month)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),,S3 Standard - Infrequent Access,133.12,1250,15133.12,USD,,"S3 Standard-IA storage (100000 GB per month), S3 Standard-IA Average Object Size (100 MB)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,S3 Glacier Flexible Retrieval,0,180.91,2170.92,USD,,"S3 Glacier Flexible Retrieval Average Object Size (16 MB), Provisioned Capacity Units (0), null (0), S3 Glacier Flexible Retrieval storage (50000 GB per month)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Data Transfer,0,0,0.00,USD,,
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon EC2 ,0,2545.124,30541.49,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m4.large), Pricing strategy (Compute Savings Plans 3 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (6000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon RDS for MySQL,0,3475.4,41704.80,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (6000 GB), Quantity (2), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon EC2 ,0,1320.596,15847.15,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3.large), Pricing strategy (Compute Savings Plans 3 Year  None upfront), Enable monitoring (disabled), EBS Storage amount (3000 GB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon ElastiCache,0,1328.6,15943.20,USD,,"Nodes (2), Instance type (cache.r4.2xlarge), Cache Engine (Redis), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Nodes (0), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand)"
+
+Changes made: Added ElastiCache to provide secure, blazing fast performance; Doubled the storage amount of web servers and RDS for MySQL; Increased the Basic Checks amount of Route 53; Increased the specs of Application Load Balancer, NAT; Added S3 Infrequent Access storage and S3 Glacier storage.		

@@ -1,0 +1,24 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,6371.01,76452.12,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Network Address Translation (NAT) Gateway,0,257.85,3094.20,USD,,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon Route 53,0,125.5,1506.00,USD,,"Hosted Zones (1), Basic Checks Within AWS (300)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon CloudWatch,0,21,252.00,USD,,Number of Metrics (includes detailed and custom metrics) (70)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon RDS for MySQL,0,1759.6,21115.20,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3000 GB), Quantity (2), Instance type (db.m1.medium), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon EC2 ,0,1345.124,16141.49,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (m4.large), Pricing strategy (Compute Savings Plans 3yr No Upfront), Enable monitoring (disabled), EBS Storage amount (3000 GB), DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month), DT Intra-Region: (0 tb_month)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon Elastic IP,0,0,0.00,USD,,"Number of EC2 instances (1), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,AWS Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month), DT Intra-Region: (0 tb_month)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,S3 Standard,0,230,2760.00,USD,,S3 Standard storage (10000 GB per month)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month)"
+My Estimate,US East (N. Virginia),,S3 Glacier Flexible Retrieval,0,144.73,1736.76,USD,,"S3 Glacier Flexible Retrieval Average Object Size (16 MB), Provisioned Capacity Units (0), S3 Glacier Flexible Retrieval storage (40000 GB per month)"
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,,"DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month)"
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Amazon EC2 ,0,720.596,8647.15,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t3.large), Pricing strategy (Compute Savings Plans 3yr No Upfront), Enable monitoring (disabled), EBS Storage amount (1500 GB), DT Inbound: Not selected (0 tb_month), DT Outbound: Not selected (0 tb_month), DT Intra-Region: (0 tb_month)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1213.63,14563.56,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),Udacity AWS Cloud Architect Provision,Network Load Balancer,0,552.9799999999999,6635.76,USD,,"Number of Network Load Balancers (1), Average number of new TCP connections (5000 per second), Average number of new UDP Flows (5000 per second), Average UDP Flow duration (60 seconds), Average TCP connection duration (60 seconds), Processed bytes per NLB for TCP (10 GB per hour), Processed bytes per NLB for UDP (10 GB per hour), Average number of new TLS connections (5000 per second), Average TLS connection duration (60 seconds), Processed bytes per NLB for TLS (10 GB per hour)"
+
+Changes made: Used S3 Glacier to store some of the app data that would rarely be revisited by users; Reduced storage amount by half for web servers; Used Reserved Instances instead of on-demand instances.	
